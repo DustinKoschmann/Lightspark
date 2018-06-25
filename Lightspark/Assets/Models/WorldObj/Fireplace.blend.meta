@@ -1,17 +1,74 @@
 fileFormatVersion: 2
-guid: a92a92bc191ada740a6b165d49f8d3c6
-timeCreated: 1529584956
+guid: 198ced737919637408c21e17876b1495
+timeCreated: 1529896811
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: Stamm
-    2100002: Blatt
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Cylinder
+    100000: Cube
+    100002: Cube_001
+    100004: Cube_002
+    100006: Cube_003
+    100008: Cube_004
+    100010: Cube_005
+    100012: //RootNode
+    100014: Icosphere
+    100016: Icosphere_001
+    100018: Icosphere_002
+    100020: Icosphere_003
+    100022: Icosphere_004
+    100024: Icosphere_005
+    400000: Cube
+    400002: Cube_001
+    400004: Cube_002
+    400006: Cube_003
+    400008: Cube_004
+    400010: Cube_005
+    400012: //RootNode
+    400014: Icosphere
+    400016: Icosphere_001
+    400018: Icosphere_002
+    400020: Icosphere_003
+    400022: Icosphere_004
+    400024: Icosphere_005
+    2100000: Wood
+    2100002: Stone
+    2300000: Cube
+    2300002: Cube_001
+    2300004: Cube_002
+    2300006: Cube_003
+    2300008: Cube_004
+    2300010: Cube_005
+    2300012: Icosphere
+    2300014: Icosphere_001
+    2300016: Icosphere_002
+    2300018: Icosphere_003
+    2300020: Icosphere_004
+    2300022: Icosphere_005
+    3300000: Cube
+    3300002: Cube_001
+    3300004: Cube_002
+    3300006: Cube_003
+    3300008: Cube_004
+    3300010: Cube_005
+    3300012: Icosphere
+    3300014: Icosphere_001
+    3300016: Icosphere_002
+    3300018: Icosphere_003
+    3300020: Icosphere_004
+    3300022: Icosphere_005
+    4300000: Cube_005
+    4300002: Cube_004
+    4300004: Cube_003
+    4300006: Cube_002
+    4300008: Cube_001
+    4300010: Cube
+    4300012: Icosphere_005
+    4300014: Icosphere_004
+    4300016: Icosphere_003
+    4300018: Icosphere_002
+    4300020: Icosphere_001
+    4300022: Icosphere
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
@@ -44,7 +101,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 8
+    globalScale: 5
     meshCompression: 0
     addColliders: 0
     importVisibility: 1

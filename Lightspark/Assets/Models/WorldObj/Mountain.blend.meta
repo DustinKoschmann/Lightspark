@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: a92a92bc191ada740a6b165d49f8d3c6
-timeCreated: 1529584956
+guid: 64df853a8508c1b4bbd79481bee000f9
+timeCreated: 1529899042
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Stamm
-    2100002: Blatt
+    2100000: Top
+    2100002: Mountain
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cylinder
+    4300000: Plane
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
@@ -44,7 +44,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 8
+    globalScale: 40
     meshCompression: 0
     addColliders: 0
     importVisibility: 1

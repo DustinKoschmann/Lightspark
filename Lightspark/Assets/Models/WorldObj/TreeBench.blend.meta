@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: a92a92bc191ada740a6b165d49f8d3c6
-timeCreated: 1529584956
+guid: a2c768b093f069d4fad0514e7be75b96
+timeCreated: 1529897435
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Stamm
-    2100002: Blatt
+    2100000: Rinde
+    2100002: Wood
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cylinder
@@ -44,7 +44,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 8
+    globalScale: 4
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
