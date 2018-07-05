@@ -1,18 +1,50 @@
 fileFormatVersion: 2
-guid: 75fc17699dd8549468a1e2f57a14a9f5
+guid: dc1102d17a12a6b4ab99aa302f7cf4a8
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: MainMaterial
-    2100002: TopMaterial
-    2100004: GroundMaterial
-    2100006: Grass2
-    2100008: Material
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Terrain2
+    100000: Armature
+    100002: Cylinder
+    100004: Finer21_L
+    100006: Finger11_L
+    100008: Finger12_L
+    100010: Finger13_L
+    100012: Finger22_L
+    100014: Finger23_L
+    100016: Finger31_L
+    100018: Finger32_L
+    100020: Finger33_L
+    100022: Finger41_L
+    100024: Finger42_L
+    100026: Finger43_L
+    100028: //RootNode
+    100030: Hand_L
+    100032: Thumb1_L
+    100034: Thumb2_L
+    100036: Thumb3_L
+    400000: Armature
+    400002: Cylinder
+    400004: Finer21_L
+    400006: Finger11_L
+    400008: Finger12_L
+    400010: Finger13_L
+    400012: Finger22_L
+    400014: Finger23_L
+    400016: Finger31_L
+    400018: Finger32_L
+    400020: Finger33_L
+    400022: Finger41_L
+    400024: Finger42_L
+    400026: Finger43_L
+    400028: //RootNode
+    400030: Hand_L
+    400032: Thumb1_L
+    400034: Thumb2_L
+    400036: Thumb3_L
+    2100000: unnamed
+    2300000: Cylinder
+    3300000: Cylinder
+    4300000: Cylinder
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}

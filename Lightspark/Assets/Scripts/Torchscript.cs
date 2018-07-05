@@ -18,8 +18,9 @@ public class Torchscript : MonoBehaviour {
 
 
     void Start() {
-        startPos = this.transform.position;
-        lockedRotation = this.transform.rotation;
+        //startPos = this.transform.position;
+        //lockedRotation = this.transform.rotation;
+        //lockedRotation = Quaternion.Euler(-90, 0, 0);
         playerMovement = parentObject.transform.GetComponent<PlayerMovement>();
     }
 
@@ -49,10 +50,10 @@ public class Torchscript : MonoBehaviour {
         
         this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y + curShake, this.transform.position.z);
 
-        lockedRotation = Quaternion.Euler(lockedRotation.eulerAngles.x, this.transform.rotation.eulerAngles.y, this.transform.rotation.eulerAngles.z);
+        //lockedRotation = Quaternion.Euler(lockedRotation.eulerAngles.x, this.transform.rotation.eulerAngles.y, this.transform.rotation.eulerAngles.z);
     }
 
     private void LateUpdate() {
-        this.transform.rotation = lockedRotation;
+        //this.transform.rotation = lockedRotation;
     }
 }

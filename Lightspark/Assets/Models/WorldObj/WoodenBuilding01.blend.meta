@@ -1,18 +1,17 @@
 fileFormatVersion: 2
-guid: 75fc17699dd8549468a1e2f57a14a9f5
+guid: 49bc257bd78e59444bab096fd866b9fc
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: MainMaterial
-    2100002: TopMaterial
-    2100004: GroundMaterial
-    2100006: Grass2
-    2100008: Material
+    2100000: Material
+    2100002: Material_002
+    2100004: Material_001
+    2100006: Material_003
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Terrain2
+    4300000: Cube
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
@@ -46,7 +45,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 5
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -66,7 +65,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 5
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60

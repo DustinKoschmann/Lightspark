@@ -1,20 +1,77 @@
 fileFormatVersion: 2
-guid: 75fc17699dd8549468a1e2f57a14a9f5
+guid: 3f85bd838aec95e44aa8f86535edec9f
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: breast_L
+    100004: breast_R
+    100006: Cube
+    100008: foot_L
+    100010: foot_R
+    100012: forearm_L
+    100014: forearm_R
+    100016: hand_L
+    100018: hand_R
+    100020: heel_02_L
+    100022: heel_02_R
+    100024: metarig
+    100026: pelvis_L
+    100028: pelvis_R
+    100030: shin_L
+    100032: shin_R
+    100034: shoulder_L
+    100036: shoulder_R
+    100038: spine
+    100040: spine_001
+    100042: spine_002
+    100044: spine_003
+    100046: spine_004
+    100048: spine_005
+    100050: spine_006
+    100052: thigh_L
+    100054: thigh_R
+    100056: toe_L
+    100058: toe_R
+    100060: upper_arm_L
+    100062: upper_arm_R
     400000: //RootNode
-    2100000: MainMaterial
-    2100002: TopMaterial
-    2100004: GroundMaterial
-    2100006: Grass2
-    2100008: Material
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Terrain2
+    400002: breast_L
+    400004: breast_R
+    400006: Cube
+    400008: foot_L
+    400010: foot_R
+    400012: forearm_L
+    400014: forearm_R
+    400016: hand_L
+    400018: hand_R
+    400020: heel_02_L
+    400022: heel_02_R
+    400024: metarig
+    400026: pelvis_L
+    400028: pelvis_R
+    400030: shin_L
+    400032: shin_R
+    400034: shoulder_L
+    400036: shoulder_R
+    400038: spine
+    400040: spine_001
+    400042: spine_002
+    400044: spine_003
+    400046: spine_004
+    400048: spine_005
+    400050: spine_006
+    400052: thigh_L
+    400054: thigh_R
+    400056: toe_L
+    400058: toe_R
+    400060: upper_arm_L
+    400062: upper_arm_R
+    2100000: unnamed
+    4300000: Cube
     7400000: Default Take
     9500000: //RootNode
+    13700000: Cube
   externalObjects: {}
   materials:
     importMaterials: 1

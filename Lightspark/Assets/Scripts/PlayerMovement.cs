@@ -10,20 +10,42 @@ public class PlayerMovement : MonoBehaviour {
 
     private CharacterController controller;
     private bool isMoving = false;
+    private float pickupRadius = 100f;
+    private GameObject torch;
+    private WorldManager worldManager;
 
     float xVal = 0f;
     float yVal = 0f;
 
     // Use this for initialization
     void Start () {
+        worldManager = GameObject.Find("WorldManager").GetComponent<WorldManager>();
         controller = this.transform.GetComponent<CharacterController>();
+        torch = this.transform.GetChild(0).gameObject;
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
         wasdMovement();
         mouseMovement();
+        checkPickup();
 	}
+
+    void checkPickup() {
+        Debug.DrawLine(transform.position, transform.position + transform.forward * pickupRadius, Color.red);
+        if(Input.GetKeyDown(KeyCode.E)) {
+            Pickup pickup;
+            RaycastHit hit;
+            if(Physics.Raycast(transform.position, transform.forward, out hit, pickupRadius)) {
+                if(hit.collider.GetComponent<Pickup>() != null) {
+                    pickup = hit.collider.GetComponent<Pickup>();
+                    pickup.RemoveObj();
+                    torch.SetActive(true);
+                    worldManager.OpenRocks();
+                }
+            }
+        }
+    }
 
     void wasdMovement() {
         float horizontalInput = Input.GetAxisRaw("Horizontal");
